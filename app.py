@@ -28,10 +28,10 @@ client1.on_message = on_message
 
 
 
-st.title("INTERFACES MULTIMODALES")
-st.subheader("CONTROL POR VOZ")
+st.title("Resuelve el Acertijo")
+st.subheader("Te has encontrado con un Noivern, que tiene muy buen oido! Resuelve el acertijo para pasar")
 
-image = Image.open('voice_ctrl.jpg')
+image = Image.open('Noivern.png')
 
 st.image(image, width=200)
 
