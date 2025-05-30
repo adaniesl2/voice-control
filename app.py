@@ -38,7 +38,7 @@ st.image(image, width=200)
 
 
 
-st.write("Toca el Botón y habla ")
+st.write("¿Cuál es el pokémon de Ash? ")
 
 stt_button = Button(label=" Responder ", width=200)
 
