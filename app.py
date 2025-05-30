@@ -77,6 +77,9 @@ if result:
         message =json.dumps({"Act1":result.get("GET_TEXT").strip()})
         ret= client1.publish("voice_ctrl", message)
 
+if ("GET_TEXT" == "Pikachu") {
+    st.write("Correcto!")
+}
     
     try:
         os.mkdir("temp")
